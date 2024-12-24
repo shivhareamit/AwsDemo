@@ -17,5 +17,10 @@ stage('build'){
       echo "deploying"
     }
   }
+  stage('Sonar Testing'){
+    steps{
+      echo "Sonar Testing"
+    }
+  }
 }
 }
