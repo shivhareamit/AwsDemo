@@ -12,5 +12,10 @@ stage('build'){
       echo "building"
     }
   }
+  stage('deploy'){
+    steps{
+      echo "deploying"
+    }
+  }
 }
 }
